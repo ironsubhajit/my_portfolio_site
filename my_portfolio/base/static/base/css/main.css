@@ -1,11 +1,22 @@
 body {
-    background-color: rgba(228, 224, 224, 0.884);
-  }
-  
-  #profile-wrapper {
-    text-align: center;
-  }
-  
-  #profile-pic {
-    border-radius: 50%;
-  }
+  background-color: rgba(228, 224, 224, 0.884);
+}
+
+#profile-wrapper {
+  text-align: center;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.social-links ul, a, li{
+  padding: 1px;
+  list-style-type: none;
+  display: inline-block;
+}
