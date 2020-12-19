@@ -1,5 +1,19 @@
-{% extends 'base/base.html' %} {% block content %}
-<div>
-  <h1>hello</h1>
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+<br />
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card card-body h-100" id="profile-wrapper">
+        <img id="profile-pic" src="{% static 'base/images/profile-pic.jpg' %}" alt="profile-pic">
+        <hr>
+        <h4>Hi I'm Subhajit</h4>
+        <p>I love coding, doing research and learning</p>
+      </div>
+    </div>
+
+
+  </div>
 </div>
 {% endblock %}
