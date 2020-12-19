@@ -1,6 +1,4 @@
-{% extends 'base/base.html' %}
-{% load static %}
-{% block content %}
+{% extends 'base/base.html' %} {% load static %} {% block content %}
 <br />
 <div class="container">
   <div class="row">
@@ -29,9 +27,7 @@
               />
             </li>
           </a>
-          <a
-            href="https://www.youtube.com/channel/UCGJYGiMDjWPCprI7Hs2WAuQ"
-          >
+          <a href="https://www.youtube.com/channel/UCGJYGiMDjWPCprI7Hs2WAuQ">
             <li>
               <img
                 src="{% static 'base/icons/youtube.png' %}"
@@ -61,10 +57,36 @@
         </ul>
       </div>
     </div>
-
-    
-
-
+    <div class="col-md-9">
+      <div class="card card-body h-100">
+        <h4 class="card-title text-center">My First Big Project</h4>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          architecto quidem labore, asperiores hic aliquid dignissimos ad natus
+          ex nam odio quisquam, totam facilis? Ratione repellat libero culpa
+          tempore excepturi? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Atque architecto quidem labore, asperiores hic aliquid
+          dignissimos ad natus ex nam odio quisquam, totam facilis? Ratione
+          repellat libero culpa tempore excepturi? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Atque architecto quidem labore,
+          asperiores hic aliquid dignissimos ad natus ex nam odio quisquam,
+          totam facilis? Ratione repellat libero culpa tempore excepturi?
+        </p>
+        <br />
+        <ul class="social-links">
+          <a href="https://github.com/ironsubhajit/ProjectO">
+            <li>
+              <img
+                src="{% static 'base/icons/github-black.png' %}"
+                alt="github-logo"
+                style="width: 24px"
+              />
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}
