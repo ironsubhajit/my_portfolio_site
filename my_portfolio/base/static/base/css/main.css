@@ -14,6 +14,7 @@ ul {
 
 .social-links ul, a, li{
   padding: 1px;
+  vertical-align: middle;
   list-style-type: none;
   display: inline-block;
 }
