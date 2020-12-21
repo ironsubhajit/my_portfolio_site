@@ -17,3 +17,12 @@ ul {
   list-style-type: none;
   display: inline-block;
 }
+
+.social-links ul, li, i{
+  color: rgb(8, 145, 224);
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
